@@ -1,0 +1,192 @@
+aid: aave
+url: https://raw.githubusercontent.com/api-evangelist/aave/refs/heads/main/apis.yml
+name: Aave
+kind: company
+description: >-
+  Aave is a decentralized, non-custodial liquidity protocol where users supply assets to
+  earn yield and borrow against collateral. The protocol runs on Ethereum and many L2s
+  (Arbitrum, Optimism, Base, Polygon, Avalanche, zkSync, Scroll, Metis) and exposes
+  developer surfaces beyond on-chain contracts: official Aave V3 / V4 TypeScript SDKs,
+  Aave Kit (React + TypeScript + GraphQL), and protocol subgraphs hosted on The Graph
+  for indexed market, reserve, user, and historical data.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - DeFi
+  - Lending
+  - Borrowing
+  - Liquidity
+  - Protocol
+  - Subgraph
+  - GraphQL
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: aave:v3-pool
+    name: Aave V3 Pool (Smart Contracts)
+    description: >-
+      Core Aave V3 protocol contracts — Pool, L2 Pool, Wrapped Token Gateway,
+      PoolAddressesProvider, Pool Configurator, Interest Rate Strategy, Access Control
+      Manager, Oracles, aTokens, variable / stable debt tokens, and incentives. Used
+      directly via web3 client libraries or through the Aave SDKs.
+    humanURL: https://aave.com/docs/developers/aave-v3
+    baseURL: https://aave.com/docs/developers/aave-v3
+    tags:
+      - Smart Contracts
+      - Pool
+      - V3
+      - EVM
+    properties:
+      - type: Documentation
+        url: https://aave.com/docs/developers/aave-v3
+      - type: Repository
+        url: https://github.com/aave-dao/aave-v3-origin
+  - aid: aave:v4-protocol
+    name: Aave V4 Protocol (Smart Contracts)
+    description: >-
+      Next-generation Aave V4 protocol implementation with unified liquidity layer,
+      hub-and-spoke architecture, and improved risk management. Source available in
+      the aave-v4 repository.
+    humanURL: https://aave.com/docs/developers/aave-v4
+    baseURL: https://aave.com/docs/developers/aave-v4
+    tags:
+      - Smart Contracts
+      - V4
+      - Protocol
+    properties:
+      - type: Documentation
+        url: https://aave.com/docs/developers/aave-v4
+      - type: Repository
+        url: https://github.com/aave-dao/aave-v4
+  - aid: aave:sdk-v3
+    name: Aave V3 SDK
+    description: >-
+      Official TypeScript SDK for Aave V3 that wraps protocol interactions — supply,
+      borrow, repay, withdraw, swap collateral, repay-with-collateral, and read
+      operations — across supported networks.
+    humanURL: https://aave.com/docs/developers/aave-v3
+    baseURL: https://github.com/aave/aave-sdk
+    tags:
+      - SDK
+      - TypeScript
+      - V3
+    properties:
+      - type: Documentation
+        url: https://aave.com/docs/developers/aave-v3
+      - type: Repository
+        url: https://github.com/aave/aave-sdk
+  - aid: aave:sdk-v4
+    name: Aave V4 SDK
+    description: >-
+      Official TypeScript SDK for the Aave V4 protocol, exposing typed operations for
+      supplying, borrowing, and reading V4 hub state.
+    humanURL: https://aave.com/docs/developers/aave-v4
+    baseURL: https://github.com/aave/aave-v4-sdk
+    tags:
+      - SDK
+      - TypeScript
+      - V4
+    properties:
+      - type: Documentation
+        url: https://aave.com/docs/developers/aave-v4
+      - type: Repository
+        url: https://github.com/aave/aave-v4-sdk
+  - aid: aave:kit
+    name: Aave Kit
+    description: >-
+      Higher-level toolkit (React + TypeScript + GraphQL) for embedding Aave market
+      data and protocol actions into apps. Built on top of the Aave SDK and protocol
+      subgraphs.
+    humanURL: https://aave.com/build
+    baseURL: https://aave.com/build
+    tags:
+      - Kit
+      - React
+      - GraphQL
+      - SDK
+    properties:
+      - type: Documentation
+        url: https://aave.com/build
+      - type: Package
+        url: https://www.npmjs.com/package/@aave/react
+  - aid: aave:protocol-subgraphs
+    name: Aave Protocol Subgraphs
+    description: >-
+      The Graph subgraphs that index Aave V2 and V3 reserves, users, liquidations,
+      flash loans, rewards, and historical balances. Queried via GraphQL across each
+      deployed network.
+    humanURL: https://github.com/aave/protocol-subgraphs
+    baseURL: https://api.thegraph.com/subgraphs/name/aave
+    tags:
+      - Subgraph
+      - GraphQL
+      - The Graph
+      - Indexing
+    properties:
+      - type: Documentation
+        url: https://github.com/aave/protocol-subgraphs
+      - type: Repository
+        url: https://github.com/aave/protocol-subgraphs
+  - aid: aave:utilities
+    name: aave-utilities
+    description: >-
+      TypeScript helper library exposing math, formatting, and contract-call helpers
+      for building UIs and analytics on top of Aave V2 and V3 markets.
+    humanURL: https://github.com/aave/aave-utilities
+    baseURL: https://github.com/aave/aave-utilities
+    tags:
+      - SDK
+      - Utilities
+      - TypeScript
+    properties:
+      - type: Documentation
+        url: https://github.com/aave/aave-utilities
+      - type: Repository
+        url: https://github.com/aave/aave-utilities
+  - aid: aave:interface
+    name: Aave Interface
+    description: >-
+      Open-source web interface (app.aave.com) for interacting with the Aave protocol —
+      a reference implementation that integrates the SDK, Kit, and subgraphs.
+    humanURL: https://app.aave.com
+    baseURL: https://github.com/aave/interface
+    tags:
+      - Interface
+      - App
+      - Reference
+    properties:
+      - type: Documentation
+        url: https://app.aave.com
+      - type: Repository
+        url: https://github.com/aave/interface
+common:
+  - type: Website
+    url: https://aave.com
+  - type: Documentation
+    url: https://aave.com/docs
+  - type: Build
+    url: https://aave.com/build
+  - type: App
+    url: https://app.aave.com
+  - type: GitHub
+    url: https://github.com/aave
+  - type: Governance
+    url: https://governance.aave.com
+  - type: Twitter
+    url: https://x.com/aave
+  - type: Discord
+    url: https://discord.gg/aave
+integrations:
+  - name: Ethereum
+  - name: Arbitrum
+  - name: Optimism
+  - name: Base
+  - name: Polygon
+  - name: Avalanche
+  - name: zkSync Era
+  - name: Scroll
+  - name: Metis
+  - name: The Graph
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
