@@ -9,7 +9,7 @@ description: >-
   developer surfaces beyond on-chain contracts: official Aave V3 / V4 TypeScript SDKs,
   Aave Kit (React + TypeScript + GraphQL), and protocol subgraphs hosted on The Graph
   for indexed market, reserve, user, and historical data.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - DeFi
 - Lending
