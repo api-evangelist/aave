@@ -162,6 +162,10 @@ apis:
   - type: Repository
     url: https://github.com/aave/interface
 common:
+- type: TrustCenter
+  url: security/aave-trust-center.yml
+- type: DomainSecurity
+  url: security/aave-domain-security.yml
 - type: Website
   url: https://aave.com
 - type: Documentation
@@ -178,6 +182,8 @@ common:
   url: https://x.com/aave
 - type: Discord
   url: https://discord.gg/aave
+- type: Blog
+  url: https://aave.com/blog
 integrations:
 - name: Ethereum
 - name: Arbitrum

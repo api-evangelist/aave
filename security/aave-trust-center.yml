@@ -1,0 +1,13 @@
+generated: '2026-07-11'
+method: searched
+probe: true
+source: https://aave.com/security
+url: https://aave.com/security
+certifications:
+- SOC 2
+evidence:
+- source: https://aave.com/security
+  keywords:
+  - soc 2
+  - soc2
+  - compliance certification
