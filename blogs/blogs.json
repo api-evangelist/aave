@@ -1,0 +1,21 @@
+{
+  "repo": "aave",
+  "feeds": [
+    {
+      "source": "https://aave.com/blog",
+      "feed_url": "https://aave.com/blog",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://discord.gg/aave",
+      "feed_url": "https://discord.gg/aave",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 25
+}
