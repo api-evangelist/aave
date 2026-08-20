@@ -165,6 +165,10 @@ apis:
   humanURL: https://app.aave.com
   baseURL: https://github.com/aave/interface
   tags:
+  - Interfaces
+  - App
+  - Reference
+  tags_raw:
   - Interface
   - App
   - Reference
