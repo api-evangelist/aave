@@ -57,6 +57,11 @@ apis:
   tags:
   - Smart Contracts
   - Pool
+  - v3
+  - EVM
+  tags_raw:
+  - Smart Contracts
+  - Pool
   - V3
   - EVM
   properties:
@@ -90,6 +95,10 @@ apis:
   humanURL: https://aave.com/docs/developers/aave-v3
   baseURL: https://github.com/aave/aave-sdk
   tags:
+  - SDK
+  - TypeScript
+  - v3
+  tags_raw:
   - SDK
   - TypeScript
   - V3
@@ -176,7 +185,7 @@ apis:
   humanURL: https://app.aave.com
   baseURL: https://github.com/aave/interface
   tags:
-  - Interface
+  - Interfaces
   - App
   - Reference
   tags_raw:
