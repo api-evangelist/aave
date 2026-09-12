@@ -2,23 +2,21 @@
   "repo": "aave",
   "feeds": [
     {
-      "source": "https://aave.com/blog/rss.xml",
-      "feed_url": "https://aave.com/blog/rss.xml",
-      "title": "",
-      "saved": 0,
-      "method": "feed",
-      "nature": "vendor-blog",
-      "nature_basis": "path_blog"
-    },
-    {
       "source": "https://discord.gg/aave",
       "feed_url": "https://discord.gg/aave",
       "title": "",
       "saved": 0,
       "method": "none"
+    },
+    {
+      "source": "https://aave.com/blog/rss.xml",
+      "feed_url": "https://aave.com/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     }
   ],
-  "fetched": "2026-08-30T22:33:40Z",
+  "fetched": "2026-09-06T19:17:18Z",
   "post_count": 56,
   "feed_nature": "vendor-blog",
   "feed_nature_basis": "path_blog",
