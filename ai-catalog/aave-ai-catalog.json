@@ -1,0 +1,12 @@
+{
+  "specVersion": "1.0",
+  "entries": [
+    {
+      "identifier": "urn:air:aave.com:mcp:aave",
+      "displayName": "Aave MCP",
+      "description": "Read Aave markets and positions, simulate actions, and prepare unsigned transactions for the user's own wallet to sign, across Aave v3 and v4.",
+      "type": "application/mcp-server-card+json",
+      "url": "https://mcp.aave.com/.well-known/mcp/server-card.json"
+    }
+  ]
+}
