@@ -42,7 +42,7 @@ tags:
 - Subgraph
 - GraphQL
 created: '2026-05-23'
-modified: '2026-05-23'
+modified: '2026-09-13'
 specificationVersion: '0.23'
 apis:
 - aid: aave:v3-pool
@@ -226,6 +226,12 @@ common:
   url: https://discord.gg/aave
 - type: Blog
   url: https://aave.com/blog
+- name: MCP Server
+  url: https://mcp.aave.com
+  type: MCPServer
+- name: MCP Documentation
+  url: https://aave.com/docs/mcp
+  type: MCPDocumentation
 integrations:
 - name: Ethereum
 - name: Arbitrum
