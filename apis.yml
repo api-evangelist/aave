@@ -11,14 +11,21 @@ description: >-
   for indexed market, reserve, user, and historical data.
 deliveryModel:
   model: unknown
+  license_evidence:
+    not_product:
+    - aave-dao/aave-v3-origin
+    - aave-dao/aave-v4
+    - aave/aave-sdk
+    - aave/aave-utilities
+    - aave/aave-v4-sdk
   open_source: unknown
   commercial: false
   callable_host: false
   label: Delivery model not determined — needs a product licence on record
   confidence: low
   source:
-  - repository-unlicensed
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: free
