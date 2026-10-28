@@ -1,4 +1,4 @@
-# aave
+# Aave
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Aave — decentralized non-custodial liquidity + lending protocol
+Aave is a decentralized, non-custodial liquidity protocol where users supply assets to earn yield and borrow against collateral. The protocol runs on Ethereum and many L2s (Arbitrum, Optimism, Base, Polygon, Avalanche, zkSync, Scroll, Metis) and exposes developer surfaces beyond on-chain contracts: official Aave V3 / V4 TypeScript SDKs, Aave Kit (React + TypeScript + GraphQL), and protocol subgraphs hosted on The Graph for indexed market, reserve, user, and historical data.
+
+**Areas:** DeFi · Lending · Borrowing · Liquidity · Protocol · Subgraph · GraphQL
+
+## Aave on APIs.io
+
+Everything profiled for Aave is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aave/](https://apis.io/providers/aave/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [Aave V3 Pool (Smart Contracts)](https://apis.io/apis/aave/v3-pool/) — Core Aave V3 protocol contracts — Pool, L2 Pool, Wrapped Token Gateway, PoolAddressesProvider, Pool Configurator, Interest Rate Strategy, Access Control…
+- [Aave V4 Protocol (Smart Contracts)](https://apis.io/apis/aave/v4-protocol/) — Next-generation Aave V4 protocol implementation with unified liquidity layer, hub-and-spoke architecture, and improved risk management. Source available in…
+- [Aave V3 SDK](https://apis.io/apis/aave/sdk-v3/) — Official TypeScript SDK for Aave V3 that wraps protocol interactions — supply, borrow, repay, withdraw, swap collateral, repay-with-collateral, and read…
+- [Aave V4 SDK](https://apis.io/apis/aave/sdk-v4/) — Official TypeScript SDK for the Aave V4 protocol, exposing typed operations for supplying, borrowing, and reading V4 hub state.
+- [Aave Kit](https://apis.io/apis/aave/kit/) — Higher-level toolkit (React + TypeScript + GraphQL) for embedding Aave market data and protocol actions into apps. Built on top of the Aave SDK and protocol…
+- [Aave Protocol Subgraphs](https://apis.io/apis/aave/protocol-subgraphs/) — The Graph subgraphs that index Aave V2 and V3 reserves, users, liquidations, flash loans, rewards, and historical balances. Queried via GraphQL across each…
+- [aave-utilities](https://apis.io/apis/aave/utilities/) — TypeScript helper library exposing math, formatting, and contract-call helpers for building UIs and analytics on top of Aave V2 and V3 markets.
+- [Aave Interface](https://apis.io/apis/aave/interface/) — Open-source web interface (app.aave.com) for interacting with the Aave protocol — a reference implementation that integrates the SDK, Kit, and subgraphs.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### GraphQL (1)
+
+GraphQL schemas.
+
+- [Aave GraphQL API](https://apis.io/graphqls/aave/aave-graphql/)
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [MCP Server](https://apis.io/servers/aave/mcp-server/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Aave Domain Security](https://apis.io/security/aave/aave-domain-security/)
+- [Aave Trust Center](https://apis.io/security/aave/aave-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Aave Plans Pricing](https://apis.io/plans/aave/aave-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Aave Rate Limits](https://apis.io/rate-limits/aave/aave-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Aave Finops](https://apis.io/finops/aave/aave-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://aave.com)
+- [Documentation](https://aave.com/docs)
+- [Blog](https://aave.com/blog)
+
+## API Evangelist rating
+
+**Kin Score 15.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 70.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 13.2 |
+
+**Agent readiness 3.7** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aave/](https://apis.io/providers/aave/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Aave: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aave/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
